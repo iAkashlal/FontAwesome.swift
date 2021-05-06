@@ -64,13 +64,13 @@ public enum FontAwesomeStyle: String {
     func fontFilename() -> String {
         switch self {
         case .solid:
-            return FontAwesomeConfig.usesProFonts ? "Font Awesome 5 Pro-Solid-900" : "Font Awesome 5 Free-Solid-900"
+            return FontAwesomeConfig.usesProFonts ? "Font Awesome 5 Pro-Solid-900" : "FontAwesome5Free-Solid-900"
         case .light:
-            return FontAwesomeConfig.usesProFonts ? "Font Awesome 5 Pro-Light-300" : "Font Awesome 5 Free-Regular-400"
+            return FontAwesomeConfig.usesProFonts ? "Font Awesome 5 Pro-Light-300" : "FontAwesome5Free-Regular-400"
         case .regular:
-            return FontAwesomeConfig.usesProFonts ? "Font Awesome 5 Pro-Regular-400" : "Font Awesome 5 Free-Regular-400"
+            return FontAwesomeConfig.usesProFonts ? "Font Awesome 5 Pro-Regular-400" : "FontAwesome5Free-Regular-400"
         case .brands:
-            return "Font Awesome 5 Brands-Regular-400"
+            return "FontAwesome5Brands-Regular-400"
         }
     }
 
